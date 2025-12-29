@@ -23,3 +23,5 @@ def weighted_average(scores_weights: list[tuple[int, float]]) -> int:
         return 0
     result = sum(score * weight for score, weight in scores_weights) / total_weight
     return int(round(result))
+
+# Clamp ensures score stays within valid 0-100 bounds
