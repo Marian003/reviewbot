@@ -51,3 +51,5 @@ export function ReviewResults({ review, aiReview, aiLoading, aiError }: Props) {
     </div>
   )
 }
+
+// Two-panel layout: static analysis + AI review
