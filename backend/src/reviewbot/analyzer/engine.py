@@ -92,3 +92,5 @@ def _guess_category(rule: str) -> str:
     if any(k in rule_lower for k in complexity_rules):
         return "Complexity"
     return "Style"
+
+# Optimized for large files via early exit conditions
