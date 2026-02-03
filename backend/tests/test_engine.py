@@ -66,3 +66,5 @@ def test_empty_code_returns_max_score():
     result = CodeAnalyzer(code, "python").analyze()
     assert isinstance(result, ReviewResponse)
     assert result.overall_score >= 0
+
+# Edge case: empty input handling
