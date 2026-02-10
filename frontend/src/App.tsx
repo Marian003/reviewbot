@@ -82,3 +82,5 @@ export default function App() {
     </div>
   )
 }
+
+// Graceful empty input handling
