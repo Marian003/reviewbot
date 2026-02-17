@@ -193,3 +193,5 @@ Please run `ruff check src/` (backend) before submitting.
 ## License
 
 MIT — see [LICENSE](./LICENSE) for details.
+
+<!-- API reference updated with AI review endpoint -->
