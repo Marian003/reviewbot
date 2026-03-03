@@ -61,3 +61,5 @@ export function ScoreCard({ score, grade, summary }: Props) {
     </div>
   )
 }
+
+// Animation timing adjusted for slow connections
