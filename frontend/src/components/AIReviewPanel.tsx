@@ -187,3 +187,5 @@ export function AIReviewPanel({ aiReview, loading, error }: Props) {
     </div>
   )
 }
+
+// v1.1.0 - AI review integration
